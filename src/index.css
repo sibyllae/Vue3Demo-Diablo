@@ -1,0 +1,22 @@
+/* * {
+  font-family: sans-serif, "Kosugi Maru";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+}
+body,
+html {
+  background-color: #1c1c1c;
+}
+a {
+  text-decoration: none;
+  color: #a58546;
+}
+
+ul {
+  list-style: none;
+  padding-right: 0;
+  margin-bottom: 0;
+} */
