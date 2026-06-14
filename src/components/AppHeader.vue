@@ -12,7 +12,7 @@
         <a href="#runes" class="nav-link" id="nav-runes">{{ t('nav.runes') }}</a>
         <a href="#runewords" class="nav-link" id="nav-runewords">{{ t('nav.runewords') }}</a>
         <a
-          href="https://github.com"
+          href="https://github.com/sibyllae/Vue3Demo-Diablo"
           target="_blank"
           rel="noopener"
           class="nav-link nav-link--external"
@@ -45,7 +45,7 @@
       <nav v-if="mobileOpen" class="mobile-nav" id="mobile-nav">
         <a href="#runes" class="nav-link" @click="mobileOpen = false">{{ t('nav.runes') }}</a>
         <a href="#runewords" class="nav-link" @click="mobileOpen = false">{{ t('nav.runewords') }}</a>
-        <a href="https://github.com" target="_blank" rel="noopener" class="nav-link">GitHub</a>
+        <a href="https://github.com/sibyllae/Vue3Demo-Diablo" target="_blank" rel="noopener" class="nav-link">GitHub</a>
         <button class="nav-link" @click="toggleLocale">{{ t('lang.toggle') }}</button>
       </nav>
     </Transition>
